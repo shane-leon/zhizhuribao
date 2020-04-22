@@ -1,0 +1,57 @@
+.index {
+    background: #f3f3f3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #00a1ec;
+    padding: 1.1rem;
+    color: #fff;
+}
+
+header div {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.index_body_two {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.index_body_two h3 {
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+    color: #aaa;
+}
+
+.card img {
+    width: 20vw;
+    margin: 0.5rem;
+}
+
+.card {
+    display: flex;
+    width: 90vw;
+    background: #fff;
+    height: 15vh;
+    margin: 0.3rem 0;
+}
+
+.card_left {
+    width: 65vw;
+    font-size: 1rem;
+    text-align: left;
+
+}
+
+.card_left p {
+    margin: 0.5rem;
+}
+
+.card_right {
+    width: 25vw;
+}
