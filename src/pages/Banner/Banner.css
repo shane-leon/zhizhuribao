@@ -1,6 +1,7 @@
 .banner {
-    height: 200px;
+    height: 13rem;
     /* margin-top: 40px; */
+    touch-action: none;
 }
 
 .am-carousel,
@@ -16,15 +17,23 @@
     touch-action: none;
 }
 
-
 .sideBar {
     width: 150px;
     background: pink;
     height: 100%;
-    padding-top: 40px;
+    padding-top: 2rem;
     box-sizing: border-box;
 }
 
 .am-drawer-draghandle {
     width: 0px !important;
+}
+
+.h1-title {
+    position: absolute;
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 1rem;
+    top: 7rem;
+    font-size: 1.5rem;
 }

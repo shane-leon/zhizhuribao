@@ -1,0 +1,174 @@
+.index {
+    background: #f3f3f3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #00a1ec;
+    padding: 1.1rem;
+    color: #fff;
+}
+
+header>div {
+    overflow: hidden;
+}
+
+.index_span2 {
+    margin-left: 2rem;
+}
+
+header>div>div {
+    float: left;
+    justify-content: space-between;
+}
+
+.index_body_two {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.index_body_two h3 {
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+    color: #aaa;
+}
+
+.card img {
+    width: 20vw;
+    margin: 0.5rem;
+}
+
+.card {
+    display: flex;
+    width: 90vw;
+    background: #fff;
+    height: 15vh;
+    margin: 0.3rem 0;
+}
+
+.card_left {
+    width: 65vw;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.card_left p {
+    margin: 0.5rem;
+}
+
+.card_right {
+    width: 25vw;
+}
+
+
+/* 
+详情页面
+*/
+
+.detail_header {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.detail_right {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail_header .detail_right span {
+    margin-right: 0.5rem;
+}
+
+.detail-img {
+    height: 10.5rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 3rem;
+}
+
+.h1_header {
+    position: absolute;
+    top: 7rem;
+    z-index: 9;
+    color: #fff;
+    opacity: 0.9;
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+h3 a {
+    color: #fff;
+}
+
+.index_span3 {
+    margin-right: 1.4rem;
+}
+
+
+/* 
+以上是详情
+*/
+
+img {
+    touch-action: none;
+}
+
+
+/* 抽屉样式 */
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: -100%;
+    opacity: 0.1;
+    top: 0;
+    transition: all 0.3s;
+    z-index: 9;
+}
+
+.mask .sideBar {
+    width: 60vw;
+    background: #fff;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 0;
+}
+
+.sidBar_header {
+    background: #00a1ec;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+.sidBar_header em {
+    margin-left: 1rem;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+}
+
+.mask h3 {
+    padding: 1rem 0;
+}
+
+.mask_fooder {
+    color: #00a1ec;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.h2_name {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}

@@ -1,0 +1,50 @@
+.comment header {
+    overflow: hidden;
+    background: #00a1ec;
+    padding: 1.1rem;
+    color: #fff;
+}
+
+.comment_top {
+    float: left;
+}
+
+.comment header>div:nth-child(2) {
+    float: right;
+}
+
+.comment_top div {
+    float: left;
+}
+
+.comment_top p {
+    float: left;
+    margin-left: 1rem;
+}
+
+.short_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+.short_top p {
+    font-size: 1.3rem;
+}
+
+.long_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+.long_top p {
+    font-size: 1.3rem;
+}

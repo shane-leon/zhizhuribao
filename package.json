@@ -10,10 +10,16 @@
     "antd": "^4.1.4",
     "antd-mobile": "^2.3.1",
     "axios": "^0.19.2",
+    "jq": "^1.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

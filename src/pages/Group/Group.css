@@ -1,0 +1,41 @@
+.group {
+    display: flex;
+    width: 100vw;
+    padding: 5vw 0;
+    justify-content: space-between;
+    align-items: top;
+    background: #ffffff;
+    border-bottom: 1px solid black;
+}
+
+.group img {
+    width: 1.6rem;
+    border-radius: 50%;
+}
+
+.center_p2 {
+    color: #d2d2d2;
+}
+
+.group_left {
+    padding-left: 0.5rem;
+    width: 10vw;
+}
+
+.group_center {
+    width: 72vw;
+}
+
+.group_center h3 {
+    margin: 0.4rem;
+    font-weight: 900;
+}
+
+.group_center p {
+    line-height: 1.2;
+    margin: 0.3rem;
+}
+
+.group_right {
+    width: 15vw;
+}

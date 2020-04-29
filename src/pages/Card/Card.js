@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./index.css"
+import "../Index/index.css"
 export default class Card extends Component {
     render() {
         const { info } = this.props;
@@ -9,7 +9,7 @@ export default class Card extends Component {
                     <p>{info.title}</p>
                 </div>
                 <div>
-                    <img src={info.image} alt="" />
+                    <img src={info.images} alt="" />
                 </div>
             </div>
         )

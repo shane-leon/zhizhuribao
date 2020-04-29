@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Carousel } from "antd-mobile"
-import { requestIndex } from "../util/request"
+import { requestIndex } from "../../util/request"
 import "./Banner.css"
+import { Link } from 'react-router-dom';
 class Banner extends Component {
     constructor() {
         super()
@@ -12,10 +13,11 @@ class Banner extends Component {
     }
     componentDidMount() {
         requestIndex().then(res => {
-            console.log(res.data.stories);
+            console.log(res.data.top_stories);
             // this.state.banner = res.data.stories
             this.setState({
-                banner: res.data.stories
+                // banner: res.data.stories
+                banner: res.data.top_stories
             })
 
         })
@@ -27,13 +29,14 @@ class Banner extends Component {
     }
 
     render() {
-        const sidebar = (
-            <div className="sideBar">
-                <span >123</span>
-            </div>
-        )
+        // const sidebar = (
+        //     <div className="sideBar">
+        //         <span >123</span>
+        //     </div>
+        // )
         return (
-            <div>  {/* 轮播图 */}
+            <div>
+                {/* 轮播图 */}
                 <div className="banner">
                     <Carousel
                         autoplay={true}
@@ -41,9 +44,10 @@ class Banner extends Component {
                     >
                         {this.state.banner.map((val) => {
                             return (
-                                <img key={val.id} src={val.images}
-                                    to={val.url}
-                                    alt=""></img>
+                                <Link key={val.id} to={"/details/" + val.id}>
+                                    <h1 className="h1-title">{val.title}</h1>
+                                    <img src={val.image} alt=""></img>
+                                </Link>
                             )
                         })}
                     </Carousel>
